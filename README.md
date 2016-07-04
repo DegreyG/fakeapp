@@ -24,7 +24,7 @@ Or move your `[AppName].app` to `[FakeAppDir]/Payload/`.
 
 ### Step 3. Setup Codesign
 
-Now, open `[AppName].xcodeproj` and setup your codesign Identity & Provision in `Build Settings`. Mayby u need to setup both `[AppName]` and `PDebug` targets;
+Now, open `[AppName].xcodeproj` and setup your codesign Identity & Provision in `Build Settings`. You need to setup both `[AppName]` and `PDebug` targets;
 
 ### Step 4. Run & Debug
 
@@ -32,7 +32,7 @@ Just run and enjoy it. You can do any `DEBUG` actions like `Breakpoints` `Step-i
 
 ## PDebug - Code inject
 
-**fakeapp** already injected an `Embed Dynamic Framework` named `PDebug.framework`, U can add some code here and these code will be run with main app.
+**fakeapp** already injected an `Embed Dynamic Framework` named `PDebug.framework`, You can add some code here and these code will be run with main app.
 
 ```objc
 @implementation PDebugEntry
